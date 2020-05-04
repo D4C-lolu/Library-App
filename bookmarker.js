@@ -6,7 +6,7 @@ class Songs{
         this.artiste=artiste;
         this.year=year;
         this.rating=rating;
-        this.starPercent=starPercent;
+        this.starPercent=starPercent; 
     }
 }
 
