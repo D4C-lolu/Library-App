@@ -172,6 +172,9 @@ body {
 .green {
   background-color: green;
 }
+#pink{
+  color: #e68181;
+}
 
 @media (max-width: 400px) {
   body {
