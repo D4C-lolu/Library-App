@@ -1,0 +1,196 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 40px auto;
+  font-size: 7vw;
+  display: block;
+  min-width: 250px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  white-space: nowrap;
+  border-radius: .25rem;
+}
+
+#myform {
+  background-color: bisque;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-top: 3vh;
+}
+
+#myform .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2vh;
+}
+
+#myform .icon {
+  text-align: center;
+  background-color: #e68181;
+  color: bisque;
+  padding: 3vh;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#myform input {
+  width: 70%;
+  border-style: none;
+  padding: 3vh;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#myform .submitButton {
+  border-radius: 5px;
+  border-style: none;
+  background-color: #e68181;
+  width: 40%;
+  line-height: 1.5vh;
+  font-weight: 600;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  font-size: 2rem;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+
+#section-2 h3 {
+  display: block;
+  text-align: center;
+}
+
+#section-2 .displayTable {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5vh;
+  border-collapse: collapse;
+}
+
+#section-2 .displayTable table, #section-2 .displayTable th, #section-2 .displayTable td {
+  border: 2px #e68181 solid;
+}
+
+#section-2 .displayTable thead {
+  font: white;
+}
+
+#section-2 .displayTable thead th {
+  text-align: center;
+}
+
+#section-2 .displayTable .deleteButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #e68181;
+}
+
+#za-footo {
+  background: bisque;
+  width: 70%;
+  margin: auto;
+}
+
+#za-footo #links {
+  border: 5px #e68181 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#za-footo #links .fa {
+  color: #e68181;
+}
+
+#za-footo #name {
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
+  color: #e68181;
+}
+
+.alert {
+  width: 60%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  margin: 1rem auto;
+  border-bottom: 3rem;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+@media (max-width: 400px) {
+  body {
+    background: bisque;
+  }
+  .intro {
+    width: 100%;
+    color: #e68181;
+  }
+  #myform {
+    width: 100%;
+  }
+  h3 {
+    color: #e68181;
+  }
+  .displayTable {
+    width: 100%;
+  }
+  #za-footo {
+    width: 100%;
+  }
+}
